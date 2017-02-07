@@ -6,9 +6,9 @@ use Mockery as m;
 use PHPUnit_Framework_TestCase;
 use ReflectionObject;
 use Guzzle\Common\Event;
-use Guzzle\Http\Client as HttpClient;
-use Guzzle\Http\Message\Response;
-use Guzzle\Http\Message\RequestInterface as GuzzleRequestInterface;
+use GuzzleHttp\Client as HttpClient;
+use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Message\RequestInterface as GuzzleRequestInterface;
 use Guzzle\Plugin\Mock\MockPlugin;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 
